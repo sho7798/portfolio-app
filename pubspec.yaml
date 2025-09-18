@@ -12,6 +12,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.2
+  clipboard: ^2.0.2
+  fluttertoast: ^8.2.12
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
@@ -20,7 +24,14 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 flutter:
-
   uses-material-design: true
+  
   assets:
-    - assets/images/
+    - assets/icons/email.png
+    - assets/icons/facebook.png
+    - assets/icons/github.png
+    - assets/icons/instagram.png
+    - assets/icons/linkedin.png
+    - assets/icons/phone.png
+    - assets/icons/twitter.png
+    - assets/icons/whatsapp.png
